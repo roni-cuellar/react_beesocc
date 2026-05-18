@@ -1,0 +1,33 @@
+.inicio{
+    height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 40px;
+
+    background: #111827;
+
+    color: white;
+}
+
+.inicio h1{
+    font-size: 65px;
+
+    margin-bottom: 25px;
+
+    color: #facc15;
+}
+
+.inicio p{
+    max-width: 850px;
+
+    font-size: 22px;
+
+    line-height: 1.8;
+}
