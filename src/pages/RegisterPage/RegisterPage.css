@@ -1,0 +1,43 @@
+form {
+
+    background: linear-gradient(180deg,#1e3a8a, #111827);
+
+    color: white;
+
+    font-size: 18px;
+
+    font-family: 'Times New Roman', Times, serif;
+
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+    width: 25%;
+    margin: 50px auto;
+    border-radius:20px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 1px;
+    border: 2px rgb(39, 39, 39);
+    border-radius: 8px;
+}
+
+button{
+    background-color:#facc15;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    
+    background-color: #1e3a8a;
+    color: white;
+}
