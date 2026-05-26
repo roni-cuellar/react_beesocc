@@ -1,8 +1,8 @@
 
 
-function Navbar_dos() {
+function Header() {
     return (
-        <div className='Navbar_2'>
+        <div className='Header'>
             <h2>
                 buscador
             </h2>
