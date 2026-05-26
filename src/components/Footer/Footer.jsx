@@ -1,7 +1,7 @@
 import "./Footer.css"
 
 function Footer() {
-  return (
+    return (
     <footer>
 
             <div className="footer-container">

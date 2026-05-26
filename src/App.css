@@ -1,3 +1,6 @@
-.App{
-    background: #111827;
+
+.main{
+    margin-left: 0px;
+    background-color: #111827;
+    min-height: 100vh;
 }
