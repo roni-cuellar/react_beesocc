@@ -1,13 +1,16 @@
 footer{
-    background: linear-gradient(90deg,#1e3a8a, #111827);
 
-    margin-top: 60px;
-    padding: 40px 20px;
+    background: #ffffff;
 
-    color: white;
+    border-top: 1px solid #d1d5db;
+
+    margin-top: 80px;
+
+    padding: 50px 20px;
 }
 
 .footer-container{
+
     max-width: 1200px;
 
     margin: auto;
@@ -16,45 +19,82 @@ footer{
 }
 
 .footer-container h2{
-    font-size: 30px;
 
-    margin-bottom: 15px;
+    font-size: 34px;
+
+    margin-bottom: 18px;
+
+    color: #111111;
 
     letter-spacing: 2px;
 }
 
 .footer-container p{
-    color: #d1d5db;
 
-    margin-bottom: 20px;
+    color: #4b5563;
 
-    line-height: 1.6;
+    margin-bottom: 25px;
+
+    line-height: 1.8;
+
+    font-size: 17px;
 }
 
 .footer-links{
+
     display: flex;
 
     justify-content: center;
 
-    gap: 30px;
+    gap: 35px;
 
-    margin-bottom: 25px;
+    margin-bottom: 30px;
+
+    flex-wrap: wrap;
 }
 
 .footer-links a{
-    color: white;
+
+    color: #111111;
 
     text-decoration: none;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+
+    position: relative;
+}
+
+.footer-links a::after{
+
+    content: "";
+
+    position: absolute;
+
+    width: 0%;
+
+    height: 2px;
+
+    background: #111111;
+
+    left: 0;
+
+    bottom: -5px;
 
     transition: 0.3s;
 }
 
-.footer-links a:hover{
-    color: #facc15;
+.footer-links a:hover::after{
+
+    width: 100%;
 }
 
 .copy{
-    font-size: 14px;
 
-    color: #9ca3af;
+    font-size: 15px;
+
+    color: #6b7280;
+
+    margin-top: 15px;
 }
