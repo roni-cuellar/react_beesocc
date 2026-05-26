@@ -1,39 +1,46 @@
+import { Link } from "react-router-dom";
 
-import { Link } from 'react-router-dom'
-import logo_beesocc_negro from "../../assets/logo_beesocc_negro.png"
-import "./Navbar.css"
+import logo_beesocc_negro from "../../assets/logo_beesocc_negro.png";
+
+import "./Navbar.css";
 
 function Navbar() {
+
     return (
-    <nav>
 
-        <img 
-        src={logo_beesocc_negro} 
-        alt="logo"
-        className="logo"
-    />
+        <nav>
 
-    <div className="nav-center">
+            <img
+                src={logo_beesocc_negro}
+                alt="logo"
+                className="logo"
+            />
 
-        <Link to="/">Inicio</Link>
+            <div className="nav-center">
 
-        <Link to="/nosotros" className="titulo"> BEESOCC</Link>
+                <Link to="/">Inicio</Link>
 
-        <Link to="/contacto">Contacto</Link>
+                <Link to="/nosotros" className="titulo">
+                    BEESOCC
+                </Link>
 
-    </div>
+                <Link to="/contacto">
+                    Contacto
+                </Link>
 
-    <div className="nav-right">
+            </div>
 
-        <Link to="/login">Iniciar Sesion</Link>
+            <div className="nav-right">
 
-        <Link to="/register">Registrate</Link>
+                <Link to="/ligas">
+                    Ligas
+                </Link>
 
-    </div>
-    
+            </div>
 
-    </nav>
-    )
+        </nav>
+
+    );
 }
 
-export default Navbar
+export default Navbar;
