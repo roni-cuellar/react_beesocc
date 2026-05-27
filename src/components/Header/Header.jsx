@@ -1,16 +1,30 @@
-
+import "./Header.css"
 
 function Header() {
-    return (
-        <div className='Header'>
-            <h2>
-                buscador
-            </h2>
-            <h2>
-                ususario
-            </h2>
-        </div>
-    )
+  return (
+    <header className="header">
+
+      {/* SEARCH BAR */}
+      <div className="search-container">
+        <input
+          type="text"
+          placeholder="Buscar equipos, jugadores o partidos..."
+          className="search-input"
+        />
+
+        <button className="search-button">
+          🔍
+        </button>
+      </div>
+
+       {/* ICONOS */}
+      <div className="icons-container">
+        <span className="icon">🔔</span>
+        <span className="icon">🛠️</span>
+      </div>
+
+    </header>
+  )
 }
 
-export default Navbar_dos
+export default Header

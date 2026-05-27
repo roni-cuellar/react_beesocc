@@ -21,6 +21,8 @@ function Navbar() {
 
         <Link to="/contacto">Contacto</Link>
 
+         <Link to="/header">Header</Link>
+
     </div>
 
     <div className="nav-right">
