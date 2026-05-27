@@ -37,7 +37,7 @@ function AppRoutes() {
 
             <Route path="/equipo" element={<Equipo />} />
 
-            <Route path="/crear-liga" element={<CrearLiga />} />
+            <Route path="/crear" element={<CrearLiga />} />
 
             <Route path="/dashboard" element={<Dashboard />} /> 
 
