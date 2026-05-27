@@ -26,7 +26,7 @@ const Ligas = () => {
 
                 <div>
 
-                    <h1>{usuario}</h1>
+                    <h1> 🏆{usuario}</h1>
 
                     <p>
                         Creado por: {usuario}
@@ -65,9 +65,7 @@ const Ligas = () => {
                             }
                         >
 
-                            <h2>
-                                🏆 {liga.nombre}
-                            </h2>
+                            <h2> 🏆 {liga.nombre} </h2>
 
                             <p>
                                 Temporada:
