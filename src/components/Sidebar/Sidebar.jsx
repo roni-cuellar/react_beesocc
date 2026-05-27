@@ -7,7 +7,7 @@ function Sidebar() {
 
     return (
 
-        <aside className="sidebar">
+        <aside className="sidebar_unico">
 
             <h2 className="sidebar-title">
                 BEESOCC
@@ -16,10 +16,13 @@ function Sidebar() {
             <nav className="side">
 
                 <Link to="/">Dashboard</Link>
-                <Link to="/nosotros">Equipos</Link>
-                <Link to="/contacto">Jugadores</Link>
+                <Link to="/equipo">Equipo </Link>
+                <Link to="/jugador">Jugador</Link>
                 <Link to="/login">Partidos</Link>
                 <Link to="/register">Estadisticas</Link>
+                
+        <Link to="/ligas"> Ligas </Link>
+
 
             </nav>
 

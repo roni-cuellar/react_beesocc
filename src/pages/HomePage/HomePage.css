@@ -1,5 +1,8 @@
 .inicio{
-    height: 90vh;
+
+    position: relative;
+
+    min-height: 100vh;
 
     display: flex;
     flex-direction: column;
@@ -11,23 +14,52 @@
 
     padding: 40px;
 
-    background: #111827;
+    background-image:url("../../assets/fondo.png");
+
 
     color: white;
+
+    overflow: hidden;
+
+    box-shadow:
+    inset 0 0 250px rgba(0,0,0,0.95);
+
+    animation: fondoZoom 12s ease-in-out infinite alternate;
 }
 
+
+/* TITULO */
+
 .inicio h1{
-    font-size: 65px;
+
+    font-size: clamp(4rem, 8vw, 7rem);
+
+    font-weight: 900;
+
+    font-family: fantasy;
+
 
     margin-bottom: 25px;
 
-    color: #facc15;
+    color: white;
+
+    
 }
+
+
+
+/* TEXTO */
 
 .inicio p{
-    max-width: 850px;
 
-    font-size: 22px;
+    font-size: 1.35rem;
 
-    line-height: 1.8;
+    font-weight: 300;
+
+
+
+    color: #d1d5db;
+
 }
+
+

@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom'
-import logo_beesocc_negro from "../../assets/logo_beesocc_negro.png"
+import logo_beesocc from "../../assets/logo_beesocc.png"
 import "./Navbar.css"
 
 function Navbar() {
@@ -8,7 +8,7 @@ function Navbar() {
     <nav>
 
         <img 
-        src={logo_beesocc_negro} 
+        src={logo_beesocc} 
         alt="logo"
         className="logo"
     />
@@ -21,6 +21,8 @@ function Navbar() {
 
         <Link to="/contacto">Contacto</Link>
 
+
+
     </div>
 
     <div className="nav-right">
@@ -28,9 +30,9 @@ function Navbar() {
         <Link to="/login">Iniciar Sesion</Link>
 
         <Link to="/register">Registrate</Link>
-
+  
     </div>
-    
+        
 
     </nav>
     )

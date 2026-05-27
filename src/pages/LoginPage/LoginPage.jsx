@@ -1,24 +1,32 @@
+import { useNavigate } from "react-router-dom"
+function LoginPage() {
 
+    const navigate = useNavigate()
 
-const LoginPage = () => {
+    const iniciarSesion = (e) => {
+
+        e.preventDefault()
+
+        navigate("/crear")
+    }
     return (
-        <div>
+        <main className='register-page'>
 
-            <form action="procesar.php" method='POST'>
-                <label for="email">Correo</label>
+            <form onSubmit={iniciarSesion}>
+
+                <h1>Iniciar Sesión</h1>
+
+                <label htmlFor="email">Correo</label>
                 <input type="email" id='email' name='email' />
 
-                <br />
-
-                <label for="clave">Contraseña:</label>
+                <label htmlFor="clave">Contraseña</label>
                 <input type="password" id='clave' name='clave' />
 
-                <br />
-
                 <button type='submit'>Ingresar</button>
+
             </form>
-            
-        </div>
+
+        </main>
     )
 }
 

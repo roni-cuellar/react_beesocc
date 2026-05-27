@@ -19,7 +19,7 @@ function ContactoPage() {
                 </p>
 
                 <p>
-                    📧 contacto@vsoc.com
+                    📧 contacto@beessoc.com
                 </p>
 
                 <p>
@@ -27,7 +27,7 @@ function ContactoPage() {
                 </p>
 
                 <p>
-                    🌎 @vsoc_oficial
+                    🌎 @beesocc_oficial
                 </p>
 
             </section>

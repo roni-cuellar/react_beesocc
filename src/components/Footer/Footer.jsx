@@ -13,15 +13,6 @@ function Footer() {
                     de fútbol amateur.
                 </p>
 
-                <div className="footer-links">
-
-                    <a href="/">Inicio</a>
-
-                    <a href="/contacto">Contacto</a>
-
-                    <a href="/nosotros">Sobre Nosotros</a>
-
-                </div>
 
                 <p className="copy">
                     © 2026 BEESOCC - Todos los derechos reservados

@@ -1,7 +1,8 @@
 .contacto{
+
     padding: 100px 80px;
 
-    background-color: #0f172a;
+    background-color: #0a0a0a;
 
     text-align: center;
 
@@ -9,14 +10,19 @@
 }
 
 .contacto h1{
+
     font-size: 50px;
 
     margin-bottom: 50px;
 
-    color: #facc15;
+    color: #b7ff00;
+
+    text-shadow:
+    0 0 10px rgba(183,255,0,0.25);
 }
 
 .contact-box{
+
     display: flex;
 
     flex-direction: column;
@@ -27,11 +33,40 @@
 }
 
 .contact-item{
+
     width: 500px;
 
-    background-color: #1e293b;
+    background-color: #111827;
 
     padding: 30px;
 
     border-radius: 15px;
+
+    border: 1px solid rgba(183,255,0,0.08);
+
+    transition: 0.3s;
+}
+
+.contact-item:hover{
+
+    transform: translateY(-5px);
+
+    border-color: rgba(183,255,0,0.30);
+
+    box-shadow:
+    0 0 20px rgba(183,255,0,0.08);
+}
+
+.contact-item h2{
+
+    margin-bottom: 15px;
+
+    color: white;
+}
+
+.contact-item p{
+
+    color: #d1d5db;
+
+    line-height: 1.7;
 }

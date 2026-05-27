@@ -14,10 +14,14 @@ function NosotrosPage() {
                 </h1>
 
                 <p>
-                    VSOC busca facilitar la administración
+                    BEESOCC busca facilitar la administración
                     deportiva mediante herramientas modernas
                     para la gestión de ligas y equipos.
+                
                 </p>
+
+                <br />
+
 
                 <div>
 
@@ -31,6 +35,8 @@ function NosotrosPage() {
                     </p>
 
                 </div>
+
+                <br />
 
                 <div>
 

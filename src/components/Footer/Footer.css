@@ -1,60 +1,185 @@
 footer{
-    background: linear-gradient(90deg,#1e3a8a, #111827);
 
-    margin-top: 60px;
-    padding: 40px 20px;
+    position: relative;
+
+    background:
+    linear-gradient(
+    to top,
+    #000000,
+    #0d0d0d
+    );
+
+    padding: 70px 20px 35px;
 
     color: white;
+
+    overflow: hidden;
+
+    border-top: 1px solid rgba(255,255,255,0.06);
+
+    box-shadow:
+    inset 0 0 120px rgba(183,255,0,0.05);
 }
 
+
+/* CONTENEDOR */
+
 .footer-container{
+
     max-width: 1200px;
 
     margin: auto;
 
     text-align: center;
+
+    position: relative;
+
+    z-index: 2;
 }
+
+
+/* TITULO */
 
 .footer-container h2{
-    font-size: 30px;
 
-    margin-bottom: 15px;
+    font-size: 42px;
 
-    letter-spacing: 2px;
-}
+    font-weight: 800;
 
-.footer-container p{
-    color: #d1d5db;
+    letter-spacing: 3px;
 
     margin-bottom: 20px;
 
-    line-height: 1.6;
+    color: white;
+
+    text-shadow:
+    0 0 12px rgba(183,255,0,0.35);
 }
 
+
+/* TEXTO */
+
+.footer-container p{
+
+    color: #bfbfbf;
+
+    margin-bottom: 35px;
+
+    font-size: 18px;
+
+    line-height: 1.7;
+
+    letter-spacing: 0.5px;
+}
+
+
+/* LINKS */
+
 .footer-links{
+
     display: flex;
 
     justify-content: center;
 
-    gap: 30px;
+    align-items: center;
 
-    margin-bottom: 25px;
+    gap: 35px;
+
+    margin-bottom: 35px;
+
+    flex-wrap: wrap;
 }
 
+
+/* LINKS INDIVIDUALES */
+
 .footer-links a{
-    color: white;
+
+    position: relative;
+
+    color: #f3f4f6;
 
     text-decoration: none;
+
+    font-size: 16px;
+
+    font-weight: 500;
 
     transition: 0.3s;
 }
 
+
+/* HOVER */
+
 .footer-links a:hover{
-    color: #facc15;
+
+    color: white;
+
+    transform: translateY(-2px);
 }
 
+
+/* LINEA ANIMADA */
+
+.footer-links a::after{
+
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    bottom: -6px;
+
+    width: 0%;
+
+    height: 2px;
+
+    background: #b7ff00;
+
+    border-radius: 10px;
+
+    transition: 0.3s;
+}
+
+.footer-links a:hover::after{
+
+    width: 100%;
+}
+
+
+/* COPYRIGHT */
+
 .copy{
+
+    color: #777;
+
     font-size: 14px;
 
-    color: #9ca3af;
+    letter-spacing: 1px;
+}
+
+
+/* EFECTO VERDE SUAVE */
+
+footer::before{
+
+    content: "";
+
+    position: absolute;
+
+    width: 400px;
+    height: 400px;
+
+    background:
+    radial-gradient(
+    rgba(183,255,0,0.08),
+    transparent 70%
+    );
+
+    top: -120px;
+    left: -100px;
+
+    border-radius: 50%;
+
+    filter: blur(50px);
 }
